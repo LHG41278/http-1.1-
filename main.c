@@ -25,8 +25,7 @@ int main() {
                                   htons(3080),
                                   {
                                       INADDR_ANY,
-                                  }
-                                  };
+                                  }};
 
   int ret_val =
       bind(tcp_socket, (struct sockaddr *)&sock_addr, sizeof(sock_addr));
